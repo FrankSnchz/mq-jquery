@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/movil.css" />
+    <script
+      src="https://kit.fontawesome.com/138f20aa8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Snippets</title>
+  </head>
+  <body>
+    <header>
+      <div class="ancho">
+        <div class="logo-menu">
+          <figure>
+            <img src="resources/pullrequest-logo.svg" alt="Texto descriptivo" />
+          </figure>
+          <a id="box-menu">
+            <i class="menu fa-solid fa-bars"></i>
+          </a>
+        </div>
+        <nav id="list-menu">
+          <a href="">Inicio</a>
+          <a href="">Empresa</a>
+          <a href="">Servicios</a>
+          <a href="">Clientes</a>
+          <a href="">Ubicación</a>
+          <a href="">Contáctanos</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="ancho">
+      <div class="banner">
+        <div class="info">
+          <h1>Creación de páginas web</h1>
+          <h2>Curso básico de HTML5 y CSS3</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            adipisci dolore veritatis hic porro enim eius sed quos quidem ullam,
+            aliquid nesciunt corrupti, accusamus reprehenderit, saepe nemo
+            temporibus dignissimos repellendus.
+          </p>
+          <a class="btn-ver" href="">Ver</a>
+        </div>
+        <figure>
+          <img src="resources/foto-codigo.svg" alt="Texto descriptivo" />
+        </figure>
+      </div>
+    </div>
+
+    <footer>@FrankSánchez</footer>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $("#box-menu").click(function () {
+      $("#list-menu").slideToggle();
+    });
+  </script>
+</html>

@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    #list-menu {
+        flex-direction: column;
+    }
+    
+    .banner figure {
+        height: 100%;
+    }
+
+    #list-menu a{
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px gray solid;
+    }
+ 
+    .logo-menu #box-menu {
+        display: flex;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+
+        .info {
+            width: 100%;
+        }
+
+        figure {
+            width: 100%;
+        }
+    }
+
+
+
+}
